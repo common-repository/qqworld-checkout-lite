@@ -1,0 +1,451 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QQWorld Checkout Lite\n"
+"Report-Msgid-Bugs-To: http://www.qqworld.org\n"
+"POT-Creation-Date: 2018-10-04 12:12+0800\n"
+"PO-Revision-Date: 2018-10-04 12:13+0800\n"
+"Last-Translator: Michael Wang <admin@qqworld.org>\n"
+"Language-Team: QQWorld <admin@qqworld.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Generator: Poedit 2.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/wepay/class.NotifyCallBack.php:41
+msgid "The input parameter is not correct"
+msgstr "输入参数不正确"
+
+#: lib/wepay/class.NotifyCallBack.php:49
+msgid "Order query failure"
+msgstr "订单查询失败"
+
+#: payments/wepay/class.wc_wepay.php:32 payments/wepay/class.wc_wepay.php:120
+#: payments/wepay/class.wc_wepay.php:151 payments/wepay/init.php:27
+#: qqworld-checkout-lite.php:175
+msgid "Wepay"
+msgstr "微信支付"
+
+#: payments/wepay/class.wc_wepay.php:33
+msgid "Proceed to Wepay"
+msgstr "使用微信支付"
+
+#: payments/wepay/class.wc_wepay.php:106
+#, php-format
+msgid ""
+"Wepay is enabled, but the store currency is not set to Chinese Yuan. Please "
+"<a href=\"%1s\">set the %2s against the Chinese Yuan exchange rate</a>."
+msgstr ""
+"微信支付已启用，但您的主货币不是人民币，请<a href=\"%1s\">设置%2s转人民币的汇"
+"率</a>."
+
+#: payments/wepay/class.wc_wepay.php:121 payments/wepay/init.php:28
+#: qqworld-checkout-lite.php:176
+msgid ""
+"Wepay is a simple, secure and fast online payment method, customer can pay "
+"via debit card, credit card or wepay balance."
+msgstr ""
+"微信支付是一种简单、安全和快速的在线支付方式。用户可以通过借记卡、信用卡或微"
+"信钱包余额支付。"
+
+#: payments/wepay/class.wc_wepay.php:142
+msgid "Enable/Disable"
+msgstr "启用/禁用"
+
+#: payments/wepay/class.wc_wepay.php:144
+msgid "Enable Wepay Payment"
+msgstr "启用微信支付"
+
+#: payments/wepay/class.wc_wepay.php:148
+msgid "Title"
+msgstr "标题"
+
+#: payments/wepay/class.wc_wepay.php:150
+msgid "This controls the title which the user sees during checkout."
+msgstr "支付网关名称，用户结账时显示"
+
+#: payments/wepay/class.wc_wepay.php:155 qqworld-checkout-lite.php:115
+#: qqworld-checkout-lite.php:123
+msgid "Description"
+msgstr "描述"
+
+#: payments/wepay/class.wc_wepay.php:157
+msgid "This controls the description which the user sees during checkout."
+msgstr "描述一下支付网关，用户结账时会看到"
+
+#: payments/wepay/class.wc_wepay.php:158
+msgid "Pay via Wepay, use your mobile device secure and fast to pay."
+msgstr "通过微信钱包，使用你的移动设备安全便捷支付。"
+
+#: payments/wepay/class.wc_wepay.php:162
+msgid "APP ID"
+msgstr "身份标识(APP ID)"
+
+#: payments/wepay/class.wc_wepay.php:164
+msgid ""
+"Please enter the APP ID<br />If you don't have one, <a href=\"https://mp."
+"weixin.qq.com\" target=\"_blank\">click here</a> to get."
+msgstr ""
+"请输入APP ID<br />如果你还没有APP ID，<a href=\"https://mp.weixin.qq.com\" "
+"target=\"_blank\">点击这里</a>获取。"
+
+#: payments/wepay/class.wc_wepay.php:168
+msgid "APP Secret"
+msgstr "身份密钥(APP Secret)"
+
+#: payments/wepay/class.wc_wepay.php:170
+#, php-format
+msgid ""
+"Please enter the APP Secret<br />If you don't have one, <a href=\"%s\" "
+"target=\"_blank\">click here</a> to get."
+msgstr ""
+"请输入APP Secret<br />如果你还没有APP Secret，<a href=\"%s\" target=\"_blank"
+"\">点击这里</a>获取。"
+
+#: payments/wepay/class.wc_wepay.php:174
+msgid "Merchant ID"
+msgstr "微信支付商户ID (MchID)"
+
+#: payments/wepay/class.wc_wepay.php:176
+msgid ""
+"Please enter your Wepay Merchant ID, this is needed in order to take payment."
+msgstr "请输入您用于收款的微信商户号。"
+
+#: payments/wepay/class.wc_wepay.php:181
+msgid "API Key"
+msgstr "商户支付密钥 (API Key)"
+
+#: payments/wepay/class.wc_wepay.php:183
+#, php-format
+msgid ""
+"Please enter the API Key<br />If you don't have one, <a href=\"%s\" target="
+"\"_blank\">Click here</a> to get."
+msgstr ""
+"请输入商户支付密钥<br />如果你还没有，<a href=\"%s\" target=\"_blank\">点击这"
+"里</a>获取。"
+
+#: payments/wepay/class.wc_wepay.php:186
+msgid "Preferred format for order title"
+msgstr "订单名称格式"
+
+#: payments/wepay/class.wc_wepay.php:188
+msgid "Select your preferred order title format"
+msgstr "请选择订单名称格式"
+
+#: payments/wepay/class.wc_wepay.php:189
+msgid "Select the format of order title when making payment at Wepay"
+msgstr "用户在用微信支付付款时会依据所选格式显示订单名称"
+
+#: payments/wepay/class.wc_wepay.php:191
+msgid "Customer Full Name - #Order ID"
+msgstr "客户姓名 - #订单ID"
+
+#: payments/wepay/class.wc_wepay.php:192
+msgid "Name of the first Product - #Order ID"
+msgstr "产品名称 - #订单ID"
+
+#: payments/wepay/class.wc_wepay.php:193
+#, php-format
+msgid "[Customer Full Name]'s Order From %s - #Order ID"
+msgstr "[客户姓名]在%s的订单 - #订单ID"
+
+#: payments/wepay/class.wc_wepay.php:198
+msgid "Red Packet"
+msgstr "红包"
+
+#: payments/wepay/class.wc_wepay.php:198 payments/wepay/class.wc_wepay.php:205
+#: payments/wepay/class.wc_wepay.php:212 payments/wepay/class.wc_wepay.php:218
+#: payments/wepay/class.wc_wepay.php:225 payments/wepay/class.wc_wepay.php:232
+#, php-format
+msgid "(<a href=\"%s\" target=\"_blank\">Purchase Pro</a>)"
+msgstr "（<a href=\"%s\" target=\"_blank\">购买专业版</a>）"
+
+#: payments/wepay/class.wc_wepay.php:200
+msgid "Enable/Disable WeiXin Red Packet"
+msgstr "启用/禁用 微信红包"
+
+#: payments/wepay/class.wc_wepay.php:201
+#, php-format
+msgid ""
+"System will automatically send a red pack to a user when the product which "
+"shared by this user has purchased.<br />If the order quantity is 2, the red "
+"pack amount will be double.<br />Needs certificates, please download by this "
+"path: WeChat business platform (pay.weixin.qq.com) --&gt; account settings --"
+"&gt; API Security --&gt; Download Certificates.<br />And put "
+"Certificates(<em>apiclient_cert.pem</em>, <em>apiclient_key.pem</em>, "
+"<em>rootca.pem</em>) into <strong>%s</strong> folder."
+msgstr ""
+"当用户在微信中分享的商品被购买了，系统会自动给该用户发1个红包。<br />如果订单"
+"的数量是2，则红包的金额翻番。<br />该功能需要证书，请按照以下路径下载：微信商"
+"户平台(pay.weixin.qq.com) --&gt; 账户设置 --&gt; API安全 --&gt; 证书下载 。"
+"<br />并将证书（<em>apiclient_cert.pem</em>、<em>apiclient_key.pem</em> 和 "
+"<em>rootca.pem</em>）放置在 <strong>%s</strong> 目录下。"
+
+#: payments/wepay/class.wc_wepay.php:205
+msgid "Red Packet Amount"
+msgstr "红包金额"
+
+#: payments/wepay/class.wc_wepay.php:207
+msgid "The amount of each red packet. (Number: 100-20000, Unit: RMB Fen)"
+msgstr "每一个红包的金额。（数值：100-20000，单位：人民币分）"
+
+#: payments/wepay/class.wc_wepay.php:212
+msgid "Sender Name"
+msgstr "商家名称"
+
+#: payments/wepay/class.wc_wepay.php:214
+msgid "The name of red packet sender. (No more than 10 chinese characters)"
+msgstr "红包发送者的名称。（不超过10个汉字）"
+
+#: payments/wepay/class.wc_wepay.php:218
+msgid "Wishing"
+msgstr "祝福语"
+
+#: payments/wepay/class.wc_wepay.php:220
+msgid "Wishing of red packet."
+msgstr "红包的祝福语。"
+
+#: payments/wepay/class.wc_wepay.php:221
+msgid "May you be happy and prosperous"
+msgstr "恭喜发财"
+
+#: payments/wepay/class.wc_wepay.php:225
+msgid "Activity Name"
+msgstr "活动名"
+
+#: payments/wepay/class.wc_wepay.php:227
+msgid "Activity name of red packet."
+msgstr "红包的活动名。"
+
+#: payments/wepay/class.wc_wepay.php:232
+msgid "remark"
+msgstr "备注"
+
+#: payments/wepay/class.wc_wepay.php:234
+msgid "Activity remark of red packet."
+msgstr "红包活动的备注。"
+
+#: payments/wepay/class.wc_wepay.php:239
+msgid "Debug Log"
+msgstr "调试信息"
+
+#: payments/wepay/class.wc_wepay.php:241
+msgid "Enable logging"
+msgstr "记录调试信息"
+
+#: payments/wepay/class.wc_wepay.php:243
+msgid ""
+"Log Wepay events, such as trade status, inside <code>woocommerce/logs/wepay."
+"txt</code>"
+msgstr ""
+"记录微信支付事件，例如订单状态变化，日志文件位于 <code>woocommerce/logs/"
+"wepay.txt</code>"
+
+#: payments/wepay/class.wc_wepay.php:250
+#, php-format
+msgid "Log Wepay events, such as trade status, inside <code>%s</code>"
+msgstr "记录微信支付事件，例如订单状态变化，日志文件位于<code>%s</code>"
+
+#: payments/wepay/class.wc_wepay.php:256
+msgid "Exchange Rate"
+msgstr "汇率"
+
+#: payments/wepay/class.wc_wepay.php:258
+#, php-format
+msgid ""
+"Please set the %s against Chinese Yuan exchange rate, eg if your currency is "
+"US Dollar, then you should enter 6.19"
+msgstr "请设置%s转人民币的汇率，例如您的主货币是美元，请填写6.19"
+
+#: payments/wepay/class.wc_wepay.php:312 payments/wepay/class.wc_wepay.php:504
+msgid "Payment received, awaiting fulfilment. "
+msgstr "买家已付款, 等待卖家发货. "
+
+#: payments/wepay/class.wc_wepay.php:317 payments/wepay/class.wc_wepay.php:516
+msgid "The order not exists."
+msgstr "订单不存在。"
+
+#: payments/wepay/class.wc_wepay.php:321 payments/wepay/class.wc_wepay.php:523
+msgid "Wepay Notification Request Failure"
+msgstr "微信支付通知请求失败。"
+
+#: payments/wepay/class.wc_wepay.php:324
+msgid "This order has been canceled."
+msgstr "订单已取消。"
+
+#: payments/wepay/class.wc_wepay.php:342
+msgid "Thank you for your order, please scan QR-Code below to pay with Wepay."
+msgstr "感谢您在本站下单，请使用微信扫描二维码进行付款。"
+
+#: payments/wepay/class.wc_wepay.php:408
+msgid "Payment Failed, please return and retry."
+msgstr "支付失败，请返回并重试。"
+
+#: payments/wepay/class.wc_wepay.php:585
+msgid " etc."
+msgstr "等"
+
+#: payments/wepay/class.wc_wepay.php:596
+#, php-format
+msgid "Order of %1s from %2s"
+msgstr "%1s在%2s的订单"
+
+#: payments/wepay/class.wc_wepay.php:598
+#, php-format
+msgid "Your order from %s"
+msgstr "您在%s的订单"
+
+#: payments/wepay/class.wc_wepay.php:643
+msgid "Wepay Out Trade No."
+msgstr "微信支付商户订单号："
+
+#: payments/wepay/class.wc_wepay.php:644
+msgid "Wepay Transaction ID"
+msgstr "微信支付交易号："
+
+#: qqworld-checkout-lite.php:33
+msgid "Michael Wang"
+msgstr "王晓骞"
+
+#: qqworld-checkout-lite.php:60
+msgid "Settings"
+msgstr ""
+
+#: qqworld-checkout-lite.php:83 qqworld-checkout-lite.php:84
+#: qqworld-checkout-lite.php:106
+msgid "QQWorld Checkout"
+msgstr "QQWorld收银台"
+
+#: qqworld-checkout-lite.php:104
+msgid "QQWorld Checkout Lite"
+msgstr "QQWorld收银台 初级版"
+
+#: qqworld-checkout-lite.php:105
+msgid ""
+"QQWorld Chckout Lite for WooCommerce, only WeChat scanning QR code payment "
+"on the desktop is supported, Please purchase a commercial edition to use "
+"more payment methods."
+msgstr ""
+"为WooCommerce打造的QQWorld收银台初级版，仅支持桌面端的微信扫描二维码支付，需"
+"要更多支付方式请购买商业版。"
+
+#: qqworld-checkout-lite.php:113 qqworld-checkout-lite.php:121
+msgid "Select All"
+msgstr ""
+
+#: qqworld-checkout-lite.php:114 qqworld-checkout-lite.php:122
+#: qqworld-checkout-lite.php:141
+msgid "Payment Methods"
+msgstr "支付方式"
+
+#: qqworld-checkout-lite.php:116 qqworld-checkout-lite.php:124
+#: qqworld-checkout-lite.php:143 qqworld-checkout-lite.php:145
+#: qqworld-checkout-lite.php:154 qqworld-checkout-lite.php:156
+msgid "Edit"
+msgstr ""
+
+#: qqworld-checkout-lite.php:145
+msgid "Edit this item"
+msgstr ""
+
+#: qqworld-checkout-lite.php:164
+msgid "It seems no WooCommerce plugin found."
+msgstr "貌似没发现WooCommerce插件喔。"
+
+#: qqworld-checkout-lite.php:181
+msgid "Alipay"
+msgstr "支付宝"
+
+#: qqworld-checkout-lite.php:182
+msgid ""
+"Alipay is ants gold service's third-party payment platform, you can pay "
+"online, the official application to support credit card free repayment, "
+"recharge Q coins, water, gas and gas payment."
+msgstr ""
+"支付宝是蚂蚁金服旗下的第三方支付平台，可以进行在线支付，官方应用支持信用卡免"
+"费还款，话费Q币充值、水电燃气费缴款。"
+
+#: qqworld-checkout-lite.php:187
+msgid "UnionPay"
+msgstr "银联支付"
+
+#: qqworld-checkout-lite.php:188
+msgid ""
+"Is a Chinese financial services corporation headquartered in Shanghai, "
+"China. It provides bank card services and a major card scheme in mainland "
+"China."
+msgstr ""
+"是一家总部位于中国上海的中国金融服务公司。 它提供银行卡服务和中国大陆的主要信"
+"用卡计划。"
+
+#: qqworld-checkout-lite.php:193
+msgid "Youzan Pay"
+msgstr "有赞支付"
+
+#: qqworld-checkout-lite.php:194
+msgid ""
+"Youzan assists businessmen in the Internet era to privatize customer assets, "
+"expand the Internet customer base, and improve business efficiency through "
+"products and services, helping businesses succeed."
+msgstr ""
+"有赞通过产品和服务，帮助互联网时代的生意人私有化顾客资产、拓展互联网客群、提"
+"高经营效率，全面助力商家成功。"
+
+#: qqworld-checkout-lite.php:199
+msgid "PassPay"
+msgstr "云通付"
+
+#: qqworld-checkout-lite.php:200
+msgid ""
+"PassPay is the first to provide one-stop solution to the cash register cloud "
+"service platform."
+msgstr "云通付（PassPay）是国内首家提供一站式解决收银方案的云服务平台。"
+
+#: qqworld-checkout-lite.php:209
+msgctxt "extension"
+msgid "$ Buy"
+msgstr "￥购买"
+
+#~ msgid "QQWorld Chckout Lite for WooCommerce, more payment methods."
+#~ msgstr "为WooCommerce打造的QQWorld收银台初级版，可使用更多的支付方式。"
+
+#~ msgid "QQWorld Chckout for WooCommerce, more payment methods."
+#~ msgstr "为WooCommerce打造的QQWorld收银台，可使用更多的支付方式。"
+
+#~ msgid "banner-en"
+#~ msgstr "banner-zh-cn"
+
+#~ msgid "Activation Code"
+#~ msgstr "激活码"
+
+#~ msgid "Please enter the Activation Code"
+#~ msgstr "请输入激活码"
+
+#~ msgid "Whoops, Activation code is invalid."
+#~ msgstr "矮油，激活码无效哦。"
+
+#~ msgid ""
+#~ "Your domain is <strong>%s</strong>, please enter the activation code."
+#~ msgstr "你的域名是 <strong>%s</strong>，请输入激活码。"
+
+#~ msgid ""
+#~ "Have no activation code yet? please <a href=\"%s\" target=\"_blank"
+#~ "\">click here</a> to get one."
+#~ msgstr ""
+#~ "没有激活码吗？请 <a href=\"%s\" target=\"_blank\">点击这里</a>获取。"
+
+#~ msgid "Customer Full Name|#Order ID"
+#~ msgstr "客户姓名|#订单ID"
+
+#~ msgid "Name of the first Product|#Order ID"
+#~ msgstr "产品名称|#订单ID"
+
+#~ msgid "[Customer Full Name]'s Order From %s|#Order ID"
+#~ msgstr "[客户姓名]在%s的订单|#订单ID"
